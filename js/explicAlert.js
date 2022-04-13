@@ -21,7 +21,9 @@ function explicAlert() {
             imageHeight: 200,
             imageWidth: 200,
 
-        });
+        }).then(function(){
+        window.location = "https://www.myworkday.com/abinbev/d/home.htmld"
+        };
 
 
 
