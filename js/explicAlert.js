@@ -14,7 +14,7 @@ function explicAlert() {
 
             imageUrl: "resources/workday.jpg",
 
-            allowOutsideClick: true,
+            allowOutsideClick: else,
 
             confirmButtonText: 'Entendido',
 
