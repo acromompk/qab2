@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="imagenes/logoabin.png">
+    <title>Inicio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <Style>
+        body {
+            font-family: arial;
+            color: white;
+        }
+        
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        
+        .left {
+            left: 0%;
+            background-color: #111;
+        }
+        
+        .right {
+            right: 0;
+            background-color: white;
+        }
+        
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .btn-neon {
+            position: relative;
+            display: inline-block;
+            padding: 15px 30px;
+            color: #ffff;
+            letter-spacing: 4px;
+            font-size: 24px;
+            text-decoration: none;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+        
+        .btn-neon:hover {
+            background: yellow;
+            transition-delay: 1s;
+        }
+        
+        .btn-neon span {
+            position: absolute;
+            display: block;
+        }
+        
+        #span1 {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, yellow);
+        }
+        
+        .btn-neon:hover #span1 {
+            left: 100%;
+            transition: 1s;
+        }
+        
+        #span3 {
+            top: 0;
+            right: 100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #a945c7);
+        }
+        
+        .btn-neon:hover #span3 {
+            right: 100%;
+            transition: 1s;
+        }
+        
+        .centered img {
+            width: 250px;
+        }
+        
+        #fnc {
+            transform: scale(0.70);
+        }
+        
+        #fnc img:hover {
+            transform: scale(1.20);
+            transition: 300ms;
+        }
+        
+        #logo img:hover {
+            transform: scale(1.15);
+            transition: 300ms;
+        }
+        
+        h1 {
+            font-size: 40px;
+            height: 55px;
+            width: 350px;
+        }
+        
+        .rojo {
+            color: white;
+        }
+        
+        #rojo {
+            color: white;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/sweetAlert.js"></script>
+    <script src="js/andinalert.js"></script>
+
+
+    <script>
+        function alerta() {
+            alert("Seleccione el país de trabajo");
+        }
+    </script>
+
+
+    <div class="split left">
+        <div class="centered" align="center">
+            <br>
+
+
+            <h1><span style="color:white">¡Hola </span><span style="color:yellow">BU Andina!<span></h1>
+    <br>
+    <div id="logo">
+    <img src="resources/anchile.png" alt="">
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="resources/cervepar.png" alt="" posi>
+    <br>
+    <br>
+    <br>
+    
+    <img src="resources/cbn.png" alt="">
+    <br>
+    <br>
+    <br>
+</div>
+
+    <a class="btn-neon" href="#" onclick="andinalert()"> 
+    <span id="span1" ></span>
+                <span id="span3"></span> >Ingresar
+
+
+
+                </a>
+                <br>
+                <br>
+                <br>
+        </div>
+    </div>
+
+
+    <div class="split right">
+        <div class="centered">
+            <br>
+            <br>
+            <br>
+            <a href="#" onclick="alerteishon()" class="btn-neon" style="color:black">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+                <span id="span4"></span> >Ingresar
+
+            </a>
+            <br>
+            <div id="fnc">
+                <a href="sou.html"><img src="resources/fncr.png" alt=""></a>
+            </div>
+            <br>
+            <div id="logo">
+                <a href="soar.html"><img src="resources/logon.png" alt=""></a>
+            </div>
+            <br>
+            <br>
+            <h1><span style="color:black">¡Hola </span><span style="color:yellow">BU RDLP!<span></h1>
+
+    </div>
+ 
+
+</body>
+</html>

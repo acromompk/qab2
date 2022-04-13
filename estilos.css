@@ -1,0 +1,119 @@
+    @charset "utf-8";
+    /* CSS Document */
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: "Arial", serif;
+        font-size: 12px;
+        background: url(resources/backgroundbw.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 50%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .estructura {
+        height: 40%;
+        max-height: 530px;
+        /* Color blanco de fondo */
+        margin: auto;
+        background: rgba(242, 246, 248, 0.25);
+        /* Color de fondo para cuadro de apps*/
+        /*border: 1px solid rgba(255, 255, 255, 0.4);*/
+        /* Borde del color de fondo*/
+        border: 0px solid rgba(10, 10, 10);
+        border-top: none;
+    }
+    
+    header {
+        max-height: 200px;
+        text-align: center;
+        /*	background: rgba(17, 22, 39, 0.9);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.4);*/
+        background: rgba(10, 10, 10);
+        /*Fondo del logo superior*/
+    }
+    
+    header img {
+        height: auto;
+    }
+    
+    .iconos {
+        min-height: 352px;
+        padding: 15px;
+        text-align: center;
+        max-height: 800px;
+    }
+    
+    .iconos a {
+        width: 125px;
+        min-height: 125px;
+        margin: 10px 10px 10px 0px;
+        float: left;
+        color: #000;
+        background: rgba(255, 255, 255, 0.5);
+        display: block;
+    }
+    
+    .iconos a:hover {
+        color: #fff;
+        background: rgba(17, 22, 39, 0.9);
+        transform: scale(1.25);
+        transition: all .3s ease-in-out;
+    }
+    
+    .iconos img {
+        padding: 7px 0;
+    }
+    
+    footer {
+        width: 100%;
+        height: 50px;
+        /*border-top: 2px solid rgba(255, 255, 255, 0.4);*/
+        /*Borde de linea inferior*/
+        border-top: 2px solid rgba(10, 10, 10);
+        clear: both;
+        position: relative;
+        top: 49px
+    }
+    
+    footer p {
+        text-align: center;
+        line-height: 30px;
+        /*background: rgba(17, 22, 39, 0.9);   Coolor de fondo inferior*/
+        background: rgba(10, 10, 10);
+    }
+    
+    footer a {
+        color: #fff;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .estructura {
+            width: 100%;
+        }
+        .iconos {
+            width: 100%;
+        }
+    }
+    
+    #iconos {
+        width: 15%
+    }
+    
+    .banderas img:hover {
+        transform: scale(1.15);
+        transition: 300ms;
+    }
+    
+    header img:hover {
+        transform: scale(1.15);
+        transition: 300ms;
+    }
